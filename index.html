@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>PRÁCTICA DOM</h1>
+    </header>
+
+    <main>
+
+        <section class="bienvenidos">
+            <h2>Bienvenidos</h2>
+            <img src="assets/banner/1.jpg" alt="Banner de bienvenida" class="banner-img">
+        </section>
+
+        <section class="recomendados">
+            <h2>Recomendados</h2>
+            <div class="tarjetas-container" id="tarjetas-container">
+                <!-- Aquí JS insertará las tarjetas de viajes -->
+            </div>
+        </section>
+
+        <section class="destinos">
+            <h2>Destinos</h2>
+            <select id="select-destinos">
+                <!-- Aquí JS insertará las <option> de ciudades -->
+            </select>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Práctica DOM</p>
+    </footer>
+
+    <script defer src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.tarjetas-container {
+    display: flex;
+    gap: 15px;
+}
+
+.tarjeta {
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+}
