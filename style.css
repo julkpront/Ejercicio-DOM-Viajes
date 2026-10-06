@@ -1,11 +1,14 @@
 .tarjetas-container {
     display: flex;
     gap: 15px;
+    width: 100%;
 }
 
 .tarjeta {
     border: 1px solid #ccc;
     width: 200px;
+    flex: 1;
+    text-align: center;
 }
 
 .tarjeta img {
