@@ -16,6 +16,12 @@ const data = [
   }
 ];
 
+// Seleccionamos la imagen por su ID
+const banner = document.getElementById("main-banner");
+
+// Le asignamos la ruta de la imagen (cambia el "1.jpg" cuando lo necesites)
+banner.src = "assets/banner/1.jpg";
+
 const contenedor = document.getElementById("tarjetas-container");
 
 for (let i = 0; i < data.length; i++) {
